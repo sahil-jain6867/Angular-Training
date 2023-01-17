@@ -11,6 +11,19 @@
         text-overflow: ellipsis;
         width: 307px;
     }
+    .category-rating{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .rating{
+        background: cadetblue;
+        margin: 0;
+        padding: 5px;
+        color: white;
+        border-radius: 4px;
+        font-size: 12px;
+    }
     .product-desc{
         white-space: nowrap;
         overflow: hidden;

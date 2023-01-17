@@ -1,14 +1,22 @@
 <div class="container" *ngIf="productDetail">
     <div class="row">
         <div class="col-12">
-            <h1>{{productDetail.title}}</h1>
-            <img src="{{productDetail.image}}" alt="" width="250">
-            <div class="price">
-                <span> Rs.{{productDetail.price}}</span>
-                <!-- <span>{{productDetail.discountPercentage}}</span> -->
-            </div>  
-            <span>{{productDetail.description}}</span>
-            <button (click) = "removeProduct()">Add to Cart</button>
+            <div class="single-product">
+                <div class="img-wrap">
+                    <img src="{{productDetail.image}}" alt="" width="250" class="img-fluid">
+                </div>
+                <div class="product-details">
+                    <h1>{{productDetail.title}}</h1>
+                    <div class="price">
+                        <p> Rs.{{productDetail.price}}</p>
+                        <!-- <span>{{productDetail.discountPercentage}}</span> -->
+                    </div>  
+                    <p>{{productDetail.description}}</p>
+                    <div class="btn-wrap">
+                        <button class="btn btn-success" (click) = "removeProduct()">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

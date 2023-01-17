@@ -7,12 +7,13 @@
                 <img src="{{product.image}}" alt="product-image" width="100%" height="200"/>
             </div>  
             <h2 class="product-title">{{product.title}}</h2>
-            <p>{{product.category}}</p>
-            <p>{{product.rating.rate}}</p>
-            <p>{{product.rating.count}}</p>
+            <div class="category-rating">
+                <p>{{product.category}}</p>
+                <p class="rating">Rating {{product.rating.rate}}</p>
+            </div>
+            <!-- <p>{{product.rating.count}}</p> -->
             <div class="price-details">
                 <p>Rs.{{product.price}}</p>
-                <!-- <p>{{product.discountPercentage}}<span>%</span> <span> off on MRP </span></p> -->
             </div>
             <div class="product-desc">
                 <p>{{product.description}}</p>

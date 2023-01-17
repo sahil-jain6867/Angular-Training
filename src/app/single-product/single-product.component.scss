@@ -1,0 +1,17 @@
+.single-product{
+    display: flex;
+    background: white;
+    padding: 30px;
+    margin-top: 30px;
+    h1{
+        font-size:20px;
+    }
+    .product-details{
+        padding:50px;
+        .btn-wrap{
+            button{
+                background-color:#198754;
+            }
+        }
+    }
+}
