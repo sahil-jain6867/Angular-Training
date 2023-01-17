@@ -1,0 +1,32 @@
+.card-wrapper{
+    padding:20px;
+    border-radius:8px;
+    background-color:#fff;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    .product-title{
+        font-size: 1.2rem;
+        line-height: 1.4;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 307px;
+    }
+    .product-desc{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 300px;
+        height:50px;
+    }
+    .button-wrapper{
+        button{
+            background-color: cadetblue;
+            color: white;
+            font-size: 0.8rem;
+            transition:all 0.3s;
+            // &:hover{    
+            // box-shadow: 10px 5px 5px cadetblue;
+            // }
+        }
+    }
+}
